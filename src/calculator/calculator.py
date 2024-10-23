@@ -11,7 +11,7 @@ def triNums(n):
     return (n * (n + 1)) / 2
 
 
-def hexagonalNumber(n):
+def hexagonalNums(n):
     """Calculates the hexagonal Number"""
     return (2 * n * (( 2 * n) - 1)) / 2
 
@@ -26,7 +26,7 @@ def factorial(n):
 
 def catalanNums(n):
     """Calculates the catalan number"""
-    return factorial(2 * n) / factorial(n + 1) * factorial(n)
+    return factorial(2 * n) / (factorial(n + 1) * factorial(n))
 
 
 def lazyCaterer(n):
